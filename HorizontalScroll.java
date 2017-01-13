@@ -8,10 +8,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
-import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 
 
+/**
+ *
+ * Con esta clase creo un Scroll horizontal y dentro de ella un FrameLayout para pegar en posiciones (x,y)
+ * solo se utiliza código, sin XML
+ *
+ */
 public class HorizontalScroll extends Activity
 {
     private FrameLayout scene;
